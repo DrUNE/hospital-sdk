@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
+    "debug":"node --inspect --require ts-node/register src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "^7.0.1",
     "@hospital-sdk/doctor": "^0.0.4",
     "@hospital-sdk/patient": "^0.0.4",
     "@hospital-sdk/scheduler": "^0.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
   }
 }

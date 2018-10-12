@@ -1,5 +1,11 @@
 export class Scheduler {
-    schedule(patientID, doctorID, date) {
+    /**
+     * Some method description
+     * @param patientID
+     * @param doctorID
+     * @param date
+     */
+    schedule(patientID: string, doctorID: string, date: Date) {
         return {};
     }
 }
